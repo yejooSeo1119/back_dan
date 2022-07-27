@@ -71,6 +71,7 @@ body{
     font-family: S-CoreDream-2ExtraLight;
     background-color: #f7e7da;
     margin: 0 auto;
+	min-width:1200px;
 }
 
 body::-webkit-scrollbar {/*스크롤바 전체*/
