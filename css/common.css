@@ -1,0 +1,79 @@
+* { margin:0; padding:0; }
+
+/* 목록 불릿 없애기 */
+ul{ list-style:none; }
+
+/* 하이퍼링크 설정 */
+a{ text-decoration:none;
+	 color:#414042; }
+
+	 body{
+		font-size: 16px;
+		line-height: 26px;
+		color: #414042; 
+		font-family: S-CoreDream-2ExtraLight;
+		background-color: #f7e7da;
+		margin: 0 auto;
+	}
+.ftext{
+	clear: both;
+}
+#board { 
+	width:1320px; 
+	margin: 0 auto;
+}
+#board li{ 
+	width: 100%;
+	height: 85px;
+	box-sizing: border-box;
+}
+#board li:nth-child(odd){
+	background-color: #e9dace;
+}
+#board span{
+	display: inline-block;
+	height: 100%;
+	text-align: left;
+	line-height: 85px;
+	padding-left: 80px;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+#board span:nth-child(odd){
+	width: 260px;
+}
+#board span:nth-child(2){
+    width: 790px;
+}
+
+#board li a{ 
+	display: block;
+	background: url(/images/select.png) no-repeat 98% center;
+}
+#board li:hover a{  
+	font-weight:bold; 
+	background-color: #8c745e6b;
+	color: #f7e7da;
+}
+#board li.on a{
+	font-weight:bold; 
+	background-color: #8c745e6b;
+	background: #8c745e6b url(../images/up.png) no-repeat 98% center;
+	color: #f7e7da;
+}
+#board li:last-child a{
+	border-top:0;
+}
+
+#board li div{ 
+	width:100%; 
+	height: 100%;
+	border:1px solid #e9dace; 
+	border-top:0;
+	padding:10px 20px; 
+	box-sizing:border-box; 
+	display:none;
+	background-color: #8c745e;	
+    vertical-align: top;
+}
+
