@@ -1094,11 +1094,6 @@ box-shadow: inset 0px 0px 2px #c0a48a;
 #tabcontent .margin{
     margin-bottom: 350px;
 }
-#tab02 ul li:nth-child(1) a{
-    font-family: 'S-CoreDream-4Regular';
-    background-color: #414042;
-    color: #f7e7da;
-}
 #tabcontent h2{
     padding: 20px 0;
     font-size: 17px;
