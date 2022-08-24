@@ -15,4 +15,4 @@
 #banner > .mySwiper .swiper-pagination-bullet-active{opacity:1;} /* 블릿버튼 페이지 표시날 때 투명도 */
 #banner > .mySwiper .swiper-pagination-fraction, 
 #banner > .mySwiper .swiper-pagination-custom, 
-#banner > .mySwiper .swiper-pagination-fraction, #banner > .swiper-pagination-custom, #banner > .swiper-container-horizontal > .swiper-pagination-bullets{bottom:80px;}/* 블릿버튼 위치 */
+#banner > .mySwiper .swiper-pagination-fraction, #banner > .swiper-pagination-custom, #banner > .swiper-container-horizontal > .swiper-pagination-bullets{bottom:10%;}/* 블릿버튼 위치 */
